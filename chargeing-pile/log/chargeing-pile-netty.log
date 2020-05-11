@@ -1,0 +1,160 @@
+2020-03-02 11:10:24.701 [restartedMain] INFO  com.chargeingpile.netty.chargeingpilenetty.netty.IOT.IoTNettyPlatFormApplication -Starting IoTNettyPlatFormApplication on PC-201207261104 with PID 2800 (started by Administrator in G:\Java demo\充电桩\chargeing-pile-netty-master)
+2020-03-02 11:10:24.715 [restartedMain] INFO  com.chargeingpile.netty.chargeingpilenetty.netty.IOT.IoTNettyPlatFormApplication -The following profiles are active: dev
+2020-03-02 11:10:24.745 [restartedMain] INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor -Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-03-02 11:10:24.746 [restartedMain] INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor -For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-03-02 11:10:25.789 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer -Tomcat initialized with port(s): 8082 (http)
+2020-03-02 11:10:25.802 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol -Initializing ProtocolHandler ["http-nio-8082"]
+2020-03-02 11:10:25.812 [restartedMain] INFO  org.apache.catalina.core.StandardService -Starting service [Tomcat]
+2020-03-02 11:10:25.813 [restartedMain] INFO  org.apache.catalina.core.StandardEngine -Starting Servlet Engine: Apache Tomcat/9.0.13
+2020-03-02 11:10:25.820 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener -The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\jdk\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\:D:\jdk\bin;D:\jdk\jre\bin;D:\Maven\apache-maven-3.5.2\bin;D:\MySQL\bin;C:\Program Files\nodejs\;E:\Java开发工具\mysql-8.0.11-winx64\mysql-8.0.11-winx64\bin;;;C:\Program Files\Git\cmd;D:\jdk\bin;D:\jdk\jre\bin;C:\Users\Administrator\Downloads\gradle-5.6.2-all\gradle-5.6.2\bin;;C:\Users\Administrator\AppData\Local\Programs\Microsoft VS Code\bin;E:\Microsoft VS Code\Microsoft VS Code\bin;C:\Users\Administrator\AppData\Roaming\npm;D:\jdk\bin;;C:\Program Files\JetBrains\PyCharm Community Edition 2019.1.3\bin;;.]
+2020-03-02 11:10:25.893 [restartedMain] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] -Initializing Spring embedded WebApplicationContext
+2020-03-02 11:10:25.893 [restartedMain] INFO  org.springframework.web.context.ContextLoader -Root WebApplicationContext: initialization completed in 1147 ms
+2020-03-02 11:10:26.053 [restartedMain] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor -Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-02 11:10:26.161 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer -LiveReload server is running on port 35729
+2020-03-02 11:10:26.179 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol -Starting ProtocolHandler ["http-nio-8082"]
+2020-03-02 11:10:26.186 [restartedMain] INFO  org.apache.tomcat.util.net.NioSelectorPool -Using a shared selector for servlet write/read
+2020-03-02 11:10:26.197 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer -Tomcat started on port(s): 8082 (http) with context path ''
+2020-03-02 11:10:26.199 [restartedMain] INFO  com.chargeingpile.netty.chargeingpilenetty.netty.IOT.IoTNettyPlatFormApplication -Started IoTNettyPlatFormApplication in 1.892 seconds (JVM running for 2.523)
+2020-03-02 11:10:26.516 [nioEventLoopGroup-2-1] INFO  io.netty.handler.logging.LoggingHandler -[id: 0x10dd9aa3] REGISTERED
+2020-03-02 11:10:26.517 [nioEventLoopGroup-2-1] INFO  io.netty.handler.logging.LoggingHandler -[id: 0x10dd9aa3] BIND: /192.168.1.103:9999
+2020-03-02 11:10:26.518 [Thread-13] ERROR com.chargeingpile.netty.chargeingpilenetty.netty.IOT.NettyServer -Netty 服务启动失败: Cannot assign requested address: bind
+2020-03-02 11:10:26.518 [nioEventLoopGroup-2-1] INFO  io.netty.handler.logging.LoggingHandler -[id: 0x10dd9aa3] CLOSE
+2020-03-02 11:10:26.518 [nioEventLoopGroup-2-1] INFO  io.netty.handler.logging.LoggingHandler -[id: 0x10dd9aa3] UNREGISTERED
+2020-03-02 11:11:22.358 [restartedMain] INFO  com.chargeingpile.netty.chargeingpilenetty.netty.IOT.IoTNettyPlatFormApplication -Starting IoTNettyPlatFormApplication on PC-201207261104 with PID 5884 (started by Administrator in G:\Java demo\充电桩\chargeing-pile-netty-master)
+2020-03-02 11:11:22.360 [restartedMain] INFO  com.chargeingpile.netty.chargeingpilenetty.netty.IOT.IoTNettyPlatFormApplication -The following profiles are active: dev
+2020-03-02 11:11:22.448 [restartedMain] INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor -Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-03-02 11:11:22.448 [restartedMain] INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor -For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-03-02 11:11:23.325 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer -Tomcat initialized with port(s): 8082 (http)
+2020-03-02 11:11:23.335 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol -Initializing ProtocolHandler ["http-nio-8082"]
+2020-03-02 11:11:23.344 [restartedMain] INFO  org.apache.catalina.core.StandardService -Starting service [Tomcat]
+2020-03-02 11:11:23.344 [restartedMain] INFO  org.apache.catalina.core.StandardEngine -Starting Servlet Engine: Apache Tomcat/9.0.13
+2020-03-02 11:11:23.350 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener -The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\jdk\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\:D:\jdk\bin;D:\jdk\jre\bin;D:\Maven\apache-maven-3.5.2\bin;D:\MySQL\bin;C:\Program Files\nodejs\;E:\Java开发工具\mysql-8.0.11-winx64\mysql-8.0.11-winx64\bin;;;C:\Program Files\Git\cmd;D:\jdk\bin;D:\jdk\jre\bin;C:\Users\Administrator\Downloads\gradle-5.6.2-all\gradle-5.6.2\bin;;C:\Users\Administrator\AppData\Local\Programs\Microsoft VS Code\bin;E:\Microsoft VS Code\Microsoft VS Code\bin;C:\Users\Administrator\AppData\Roaming\npm;D:\jdk\bin;;C:\Program Files\JetBrains\PyCharm Community Edition 2019.1.3\bin;;.]
+2020-03-02 11:11:23.414 [restartedMain] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] -Initializing Spring embedded WebApplicationContext
+2020-03-02 11:11:23.414 [restartedMain] INFO  org.springframework.web.context.ContextLoader -Root WebApplicationContext: initialization completed in 966 ms
+2020-03-02 11:11:23.614 [restartedMain] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor -Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-02 11:11:23.732 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer -LiveReload server is running on port 35729
+2020-03-02 11:11:23.751 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol -Starting ProtocolHandler ["http-nio-8082"]
+2020-03-02 11:11:23.758 [restartedMain] INFO  org.apache.tomcat.util.net.NioSelectorPool -Using a shared selector for servlet write/read
+2020-03-02 11:11:23.769 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer -Tomcat started on port(s): 8082 (http) with context path ''
+2020-03-02 11:11:23.771 [restartedMain] INFO  com.chargeingpile.netty.chargeingpilenetty.netty.IOT.IoTNettyPlatFormApplication -Started IoTNettyPlatFormApplication in 1.812 seconds (JVM running for 2.39)
+2020-03-02 11:11:24.118 [nioEventLoopGroup-2-1] INFO  io.netty.handler.logging.LoggingHandler -[id: 0x690d2918] REGISTERED
+2020-03-02 11:11:24.119 [nioEventLoopGroup-2-1] INFO  io.netty.handler.logging.LoggingHandler -[id: 0x690d2918] BIND: /192.168.1.103:9999
+2020-03-02 11:11:24.121 [nioEventLoopGroup-2-1] INFO  io.netty.handler.logging.LoggingHandler -[id: 0x690d2918] CLOSE
+2020-03-02 11:11:24.121 [nioEventLoopGroup-2-1] INFO  io.netty.handler.logging.LoggingHandler -[id: 0x690d2918] UNREGISTERED
+2020-03-02 11:11:24.129 [Thread-13] ERROR com.chargeingpile.netty.chargeingpilenetty.netty.IOT.NettyServer -Netty 服务启动失败: Cannot assign requested address: bind
+2020-03-02 11:12:14.173 [restartedMain] INFO  com.chargeingpile.netty.chargeingpilenetty.netty.IOT.IoTNettyPlatFormApplication -Starting IoTNettyPlatFormApplication on PC-201207261104 with PID 11112 (started by Administrator in G:\Java demo\充电桩\chargeing-pile-netty-master)
+2020-03-02 11:12:14.175 [restartedMain] INFO  com.chargeingpile.netty.chargeingpilenetty.netty.IOT.IoTNettyPlatFormApplication -The following profiles are active: dev
+2020-03-02 11:12:14.253 [restartedMain] INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor -Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-03-02 11:12:14.253 [restartedMain] INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor -For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-03-02 11:12:15.095 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer -Tomcat initialized with port(s): 8082 (http)
+2020-03-02 11:12:15.108 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol -Initializing ProtocolHandler ["http-nio-8082"]
+2020-03-02 11:12:15.115 [restartedMain] INFO  org.apache.catalina.core.StandardService -Starting service [Tomcat]
+2020-03-02 11:12:15.115 [restartedMain] INFO  org.apache.catalina.core.StandardEngine -Starting Servlet Engine: Apache Tomcat/9.0.13
+2020-03-02 11:12:15.120 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener -The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\jdk\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\:D:\jdk\bin;D:\jdk\jre\bin;D:\Maven\apache-maven-3.5.2\bin;D:\MySQL\bin;C:\Program Files\nodejs\;E:\Java开发工具\mysql-8.0.11-winx64\mysql-8.0.11-winx64\bin;;;C:\Program Files\Git\cmd;D:\jdk\bin;D:\jdk\jre\bin;C:\Users\Administrator\Downloads\gradle-5.6.2-all\gradle-5.6.2\bin;;C:\Users\Administrator\AppData\Local\Programs\Microsoft VS Code\bin;E:\Microsoft VS Code\Microsoft VS Code\bin;C:\Users\Administrator\AppData\Roaming\npm;D:\jdk\bin;;C:\Program Files\JetBrains\PyCharm Community Edition 2019.1.3\bin;;.]
+2020-03-02 11:12:15.206 [restartedMain] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] -Initializing Spring embedded WebApplicationContext
+2020-03-02 11:12:15.206 [restartedMain] INFO  org.springframework.web.context.ContextLoader -Root WebApplicationContext: initialization completed in 953 ms
+2020-03-02 11:12:15.388 [restartedMain] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor -Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-02 11:12:15.490 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer -LiveReload server is running on port 35729
+2020-03-02 11:12:15.508 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol -Starting ProtocolHandler ["http-nio-8082"]
+2020-03-02 11:12:15.515 [restartedMain] INFO  org.apache.tomcat.util.net.NioSelectorPool -Using a shared selector for servlet write/read
+2020-03-02 11:12:15.525 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer -Tomcat started on port(s): 8082 (http) with context path ''
+2020-03-02 11:12:15.528 [restartedMain] INFO  com.chargeingpile.netty.chargeingpilenetty.netty.IOT.IoTNettyPlatFormApplication -Started IoTNettyPlatFormApplication in 1.794 seconds (JVM running for 2.4)
+2020-03-02 11:12:15.820 [nioEventLoopGroup-2-1] INFO  io.netty.handler.logging.LoggingHandler -[id: 0x422af61d] REGISTERED
+2020-03-02 11:12:15.821 [nioEventLoopGroup-2-1] INFO  io.netty.handler.logging.LoggingHandler -[id: 0x422af61d] BIND: /192.168.1.105:9999
+2020-03-02 11:12:15.822 [Thread-13] INFO  com.chargeingpile.netty.chargeingpilenetty.netty.IOT.NettyServer -netty服务启动: [port:9999]
+2020-03-02 11:12:15.822 [nioEventLoopGroup-2-1] INFO  io.netty.handler.logging.LoggingHandler -[id: 0x422af61d, L:/192.168.1.105:9999] ACTIVE
+2020-03-02 11:12:37.823 [nioEventLoopGroup-2-1] INFO  io.netty.handler.logging.LoggingHandler -[id: 0x422af61d, L:/192.168.1.105:9999] READ: [id: 0xad703770, L:/192.168.1.105:9999 - R:/192.168.1.104:64859]
+2020-03-02 11:12:37.824 [nioEventLoopGroup-2-1] INFO  io.netty.handler.logging.LoggingHandler -[id: 0x422af61d, L:/192.168.1.105:9999] READ COMPLETE
+2020-03-02 11:12:37.828 [nioEventLoopGroup-3-1] INFO  com.chargeingpile.netty.chargeingpilenetty.netty.IOT.SmartIotHandler -收到客户端IP: 192.168.1.104
+2020-03-02 11:25:53.762 [restartedMain] INFO  com.chargeingpile.netty.chargeingpilenetty.netty.IOT.IoTNettyPlatFormApplication -Starting IoTNettyPlatFormApplication on PC-201207261104 with PID 7924 (started by Administrator in G:\Java demo\充电桩\chargeing-pile-netty-master)
+2020-03-02 11:25:53.764 [restartedMain] INFO  com.chargeingpile.netty.chargeingpilenetty.netty.IOT.IoTNettyPlatFormApplication -The following profiles are active: dev
+2020-03-02 11:25:53.881 [restartedMain] INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor -Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-03-02 11:25:53.882 [restartedMain] INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor -For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-03-02 11:25:54.953 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer -Tomcat initialized with port(s): 8082 (http)
+2020-03-02 11:25:54.963 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol -Initializing ProtocolHandler ["http-nio-8082"]
+2020-03-02 11:25:54.970 [restartedMain] INFO  org.apache.catalina.core.StandardService -Starting service [Tomcat]
+2020-03-02 11:25:54.970 [restartedMain] INFO  org.apache.catalina.core.StandardEngine -Starting Servlet Engine: Apache Tomcat/9.0.13
+2020-03-02 11:25:54.976 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener -The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\jdk\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\:D:\jdk\bin;D:\jdk\jre\bin;D:\Maven\apache-maven-3.5.2\bin;D:\MySQL\bin;C:\Program Files\nodejs\;E:\Java开发工具\mysql-8.0.11-winx64\mysql-8.0.11-winx64\bin;;;C:\Program Files\Git\cmd;D:\jdk\bin;D:\jdk\jre\bin;C:\Users\Administrator\Downloads\gradle-5.6.2-all\gradle-5.6.2\bin;;C:\Users\Administrator\AppData\Local\Programs\Microsoft VS Code\bin;E:\Microsoft VS Code\Microsoft VS Code\bin;C:\Users\Administrator\AppData\Roaming\npm;D:\jdk\bin;;C:\Program Files\JetBrains\PyCharm Community Edition 2019.1.3\bin;;.]
+2020-03-02 11:25:55.039 [restartedMain] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] -Initializing Spring embedded WebApplicationContext
+2020-03-02 11:25:55.040 [restartedMain] INFO  org.springframework.web.context.ContextLoader -Root WebApplicationContext: initialization completed in 1158 ms
+2020-03-02 11:25:55.209 [restartedMain] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor -Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-02 11:25:55.349 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer -LiveReload server is running on port 35729
+2020-03-02 11:25:55.370 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol -Starting ProtocolHandler ["http-nio-8082"]
+2020-03-02 11:25:55.377 [restartedMain] INFO  org.apache.tomcat.util.net.NioSelectorPool -Using a shared selector for servlet write/read
+2020-03-02 11:25:55.391 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer -Tomcat started on port(s): 8082 (http) with context path ''
+2020-03-02 11:25:55.393 [restartedMain] INFO  com.chargeingpile.netty.chargeingpilenetty.netty.IOT.IoTNettyPlatFormApplication -Started IoTNettyPlatFormApplication in 2.045 seconds (JVM running for 3.058)
+2020-03-02 11:26:45.950 [nioEventLoopGroup-2-1] INFO  io.netty.handler.logging.LoggingHandler -[id: 0x87cab637] REGISTERED
+2020-03-02 11:26:45.955 [nioEventLoopGroup-2-1] INFO  io.netty.handler.logging.LoggingHandler -[id: 0x87cab637] BIND: /192.168.1.105:9999
+2020-03-02 11:26:45.957 [nioEventLoopGroup-2-1] INFO  io.netty.handler.logging.LoggingHandler -[id: 0x87cab637, L:/192.168.1.105:9999] ACTIVE
+2020-03-02 11:26:56.752 [Thread-14] INFO  com.chargeingpile.netty.chargeingpilenetty.netty.IOT.NettyServer -netty服务启动: [port:9999]
+2020-03-02 11:31:38.579 [Thread-13] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor -Shutting down ExecutorService 'applicationTaskExecutor'
+2020-03-02 11:31:42.687 [restartedMain] INFO  com.chargeingpile.netty.chargeingpilenetty.netty.IOT.IoTNettyPlatFormApplication -Starting IoTNettyPlatFormApplication on PC-201207261104 with PID 9584 (started by Administrator in G:\Java demo\充电桩\chargeing-pile-netty-master)
+2020-03-02 11:31:42.689 [restartedMain] INFO  com.chargeingpile.netty.chargeingpilenetty.netty.IOT.IoTNettyPlatFormApplication -The following profiles are active: dev
+2020-03-02 11:31:42.778 [restartedMain] INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor -Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-03-02 11:31:42.778 [restartedMain] INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor -For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-03-02 11:31:43.755 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer -Tomcat initialized with port(s): 8082 (http)
+2020-03-02 11:31:43.769 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol -Initializing ProtocolHandler ["http-nio-8082"]
+2020-03-02 11:31:43.779 [restartedMain] INFO  org.apache.catalina.core.StandardService -Starting service [Tomcat]
+2020-03-02 11:31:43.779 [restartedMain] INFO  org.apache.catalina.core.StandardEngine -Starting Servlet Engine: Apache Tomcat/9.0.13
+2020-03-02 11:31:43.788 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener -The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\jdk\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\:D:\jdk\bin;D:\jdk\jre\bin;D:\Maven\apache-maven-3.5.2\bin;D:\MySQL\bin;C:\Program Files\nodejs\;E:\Java开发工具\mysql-8.0.11-winx64\mysql-8.0.11-winx64\bin;;;C:\Program Files\Git\cmd;D:\jdk\bin;D:\jdk\jre\bin;C:\Users\Administrator\Downloads\gradle-5.6.2-all\gradle-5.6.2\bin;;C:\Users\Administrator\AppData\Local\Programs\Microsoft VS Code\bin;E:\Microsoft VS Code\Microsoft VS Code\bin;C:\Users\Administrator\AppData\Roaming\npm;D:\jdk\bin;;C:\Program Files\JetBrains\PyCharm Community Edition 2019.1.3\bin;;.]
+2020-03-02 11:31:43.898 [restartedMain] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] -Initializing Spring embedded WebApplicationContext
+2020-03-02 11:31:43.898 [restartedMain] INFO  org.springframework.web.context.ContextLoader -Root WebApplicationContext: initialization completed in 1120 ms
+2020-03-02 11:31:44.063 [restartedMain] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor -Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-02 11:31:44.187 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer -LiveReload server is running on port 35729
+2020-03-02 11:31:44.208 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol -Starting ProtocolHandler ["http-nio-8082"]
+2020-03-02 11:31:44.216 [restartedMain] INFO  org.apache.tomcat.util.net.NioSelectorPool -Using a shared selector for servlet write/read
+2020-03-02 11:31:44.229 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer -Tomcat started on port(s): 8082 (http) with context path ''
+2020-03-02 11:31:44.231 [restartedMain] INFO  com.chargeingpile.netty.chargeingpilenetty.netty.IOT.IoTNettyPlatFormApplication -Started IoTNettyPlatFormApplication in 1.993 seconds (JVM running for 2.758)
+2020-03-02 11:31:57.109 [nioEventLoopGroup-2-1] INFO  io.netty.handler.logging.LoggingHandler -[id: 0xb7f72f9a] REGISTERED
+2020-03-02 11:31:57.111 [nioEventLoopGroup-2-1] INFO  io.netty.handler.logging.LoggingHandler -[id: 0xb7f72f9a] BIND: /192.168.1.105:9999
+2020-03-02 11:31:58.835 [nioEventLoopGroup-2-1] INFO  io.netty.handler.logging.LoggingHandler -[id: 0xb7f72f9a, L:/192.168.1.105:9999] ACTIVE
+2020-03-02 11:31:58.835 [Thread-13] INFO  com.chargeingpile.netty.chargeingpilenetty.netty.IOT.NettyServer -netty服务启动: [port:9999]
+2020-03-02 11:32:03.647 [nioEventLoopGroup-2-1] INFO  io.netty.handler.logging.LoggingHandler -[id: 0xb7f72f9a, L:/192.168.1.105:9999] READ: [id: 0x1e8e59b3, L:/192.168.1.105:9999 - R:/192.168.1.104:65041]
+2020-03-02 11:32:03.648 [nioEventLoopGroup-2-1] INFO  io.netty.handler.logging.LoggingHandler -[id: 0xb7f72f9a, L:/192.168.1.105:9999] READ COMPLETE
+2020-03-02 11:32:03.666 [nioEventLoopGroup-3-1] INFO  com.chargeingpile.netty.chargeingpilenetty.netty.IOT.SmartIotHandler -收到客户端IP: 192.168.1.104
+2020-03-02 11:32:38.341 [nioEventLoopGroup-2-1] INFO  io.netty.handler.logging.LoggingHandler -[id: 0xb7f72f9a, L:/192.168.1.105:9999] READ: [id: 0x63442c37, L:/192.168.1.105:9999 - R:/192.168.1.104:65043]
+2020-03-02 11:32:38.341 [nioEventLoopGroup-2-1] INFO  io.netty.handler.logging.LoggingHandler -[id: 0xb7f72f9a, L:/192.168.1.105:9999] READ COMPLETE
+2020-03-02 11:32:38.342 [nioEventLoopGroup-3-2] INFO  com.chargeingpile.netty.chargeingpilenetty.netty.IOT.SmartIotHandler -收到客户端IP: 192.168.1.104
+2020-03-02 11:34:13.653 [Thread-12] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor -Shutting down ExecutorService 'applicationTaskExecutor'
+2020-03-02 11:46:45.748 [restartedMain] INFO  com.chargeingpile.netty.chargeingpilenetty.netty.IOT.IoTNettyPlatFormApplication -Starting IoTNettyPlatFormApplication on PC-201207261104 with PID 9856 (started by Administrator in G:\Java demo\充电桩\chargeing-pile-netty-master)
+2020-03-02 11:46:45.750 [restartedMain] INFO  com.chargeingpile.netty.chargeingpilenetty.netty.IOT.IoTNettyPlatFormApplication -The following profiles are active: dev
+2020-03-02 11:46:45.783 [restartedMain] INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor -Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-03-02 11:46:45.783 [restartedMain] INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor -For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-03-02 11:46:46.660 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer -Tomcat initialized with port(s): 8082 (http)
+2020-03-02 11:46:46.671 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol -Initializing ProtocolHandler ["http-nio-8082"]
+2020-03-02 11:46:46.679 [restartedMain] INFO  org.apache.catalina.core.StandardService -Starting service [Tomcat]
+2020-03-02 11:46:46.680 [restartedMain] INFO  org.apache.catalina.core.StandardEngine -Starting Servlet Engine: Apache Tomcat/9.0.13
+2020-03-02 11:46:46.686 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener -The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\jdk\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\:D:\jdk\bin;D:\jdk\jre\bin;D:\Maven\apache-maven-3.5.2\bin;D:\MySQL\bin;C:\Program Files\nodejs\;E:\Java开发工具\mysql-8.0.11-winx64\mysql-8.0.11-winx64\bin;;;C:\Program Files\Git\cmd;D:\jdk\bin;D:\jdk\jre\bin;C:\Users\Administrator\Downloads\gradle-5.6.2-all\gradle-5.6.2\bin;;C:\Users\Administrator\AppData\Local\Programs\Microsoft VS Code\bin;E:\Microsoft VS Code\Microsoft VS Code\bin;C:\Users\Administrator\AppData\Roaming\npm;D:\jdk\bin;;C:\Program Files\JetBrains\PyCharm Community Edition 2019.1.3\bin;;.]
+2020-03-02 11:46:46.763 [restartedMain] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] -Initializing Spring embedded WebApplicationContext
+2020-03-02 11:46:46.770 [restartedMain] INFO  org.springframework.web.context.ContextLoader -Root WebApplicationContext: initialization completed in 987 ms
+2020-03-02 11:46:47.016 [restartedMain] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor -Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-02 11:46:47.123 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer -LiveReload server is running on port 35729
+2020-03-02 11:46:47.140 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol -Starting ProtocolHandler ["http-nio-8082"]
+2020-03-02 11:46:47.147 [restartedMain] INFO  org.apache.tomcat.util.net.NioSelectorPool -Using a shared selector for servlet write/read
+2020-03-02 11:46:47.158 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer -Tomcat started on port(s): 8082 (http) with context path ''
+2020-03-02 11:46:47.160 [restartedMain] INFO  com.chargeingpile.netty.chargeingpilenetty.netty.IOT.IoTNettyPlatFormApplication -Started IoTNettyPlatFormApplication in 1.782 seconds (JVM running for 2.382)
+2020-03-02 11:46:47.456 [nioEventLoopGroup-2-1] INFO  io.netty.handler.logging.LoggingHandler -[id: 0x13c16db7] REGISTERED
+2020-03-02 11:46:47.457 [nioEventLoopGroup-2-1] INFO  io.netty.handler.logging.LoggingHandler -[id: 0x13c16db7] BIND: /192.168.1.105:9999
+2020-03-02 11:46:47.457 [Thread-13] INFO  com.chargeingpile.netty.chargeingpilenetty.netty.IOT.NettyServer -netty服务启动: [port:9999]
+2020-03-02 11:46:47.458 [nioEventLoopGroup-2-1] INFO  io.netty.handler.logging.LoggingHandler -[id: 0x13c16db7, L:/192.168.1.105:9999] ACTIVE
+2020-03-02 11:53:47.522 [Thread-9] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor -Shutting down ExecutorService 'applicationTaskExecutor'
+2020-03-02 11:53:47.736 [restartedMain] INFO  com.chargeingpile.netty.chargeingpilenetty.netty.IOT.IoTNettyPlatFormApplication -Starting IoTNettyPlatFormApplication on PC-201207261104 with PID 9856 (started by Administrator in G:\Java demo\充电桩\chargeing-pile-netty-master)
+2020-03-02 11:53:47.736 [restartedMain] INFO  com.chargeingpile.netty.chargeingpilenetty.netty.IOT.IoTNettyPlatFormApplication -The following profiles are active: dev
+2020-03-02 11:53:47.927 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer -Tomcat initialized with port(s): 8082 (http)
+2020-03-02 11:53:47.928 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol -Initializing ProtocolHandler ["http-nio-8082"]
+2020-03-02 11:53:47.928 [restartedMain] INFO  org.apache.catalina.core.StandardService -Starting service [Tomcat]
+2020-03-02 11:53:47.928 [restartedMain] INFO  org.apache.catalina.core.StandardEngine -Starting Servlet Engine: Apache Tomcat/9.0.13
+2020-03-02 11:53:47.956 [restartedMain] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] -Initializing Spring embedded WebApplicationContext
+2020-03-02 11:53:47.956 [restartedMain] INFO  org.springframework.web.context.ContextLoader -Root WebApplicationContext: initialization completed in 219 ms
+2020-03-02 11:53:48.001 [restartedMain] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor -Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-02 11:53:48.034 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer -LiveReload server is running on port 35729
+2020-03-02 11:53:48.043 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol -Starting ProtocolHandler ["http-nio-8082"]
+2020-03-02 11:53:48.044 [restartedMain] INFO  org.apache.tomcat.util.net.NioSelectorPool -Using a shared selector for servlet write/read
+2020-03-02 11:53:48.054 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer -Tomcat started on port(s): 8082 (http) with context path ''
+2020-03-02 11:53:48.055 [restartedMain] INFO  com.chargeingpile.netty.chargeingpilenetty.netty.IOT.IoTNettyPlatFormApplication -Started IoTNettyPlatFormApplication in 0.351 seconds (JVM running for 423.273)
+2020-03-02 11:53:48.057 [restartedMain] INFO  o.s.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener -Condition evaluation unchanged
+2020-03-02 11:53:48.068 [nioEventLoopGroup-4-1] INFO  io.netty.handler.logging.LoggingHandler -[id: 0xb5266b7b] REGISTERED
+2020-03-02 11:53:48.068 [nioEventLoopGroup-4-1] INFO  io.netty.handler.logging.LoggingHandler -[id: 0xb5266b7b] BIND: /192.168.1.105:9999
+2020-03-02 11:53:48.069 [nioEventLoopGroup-4-1] INFO  io.netty.handler.logging.LoggingHandler -[id: 0xb5266b7b] CLOSE
+2020-03-02 11:53:48.070 [nioEventLoopGroup-4-1] INFO  io.netty.handler.logging.LoggingHandler -[id: 0xb5266b7b] UNREGISTERED
+2020-03-02 11:53:48.070 [Thread-24] ERROR com.chargeingpile.netty.chargeingpilenetty.netty.IOT.NettyServer -Netty 服务启动失败: Address already in use: bind
